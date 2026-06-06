@@ -51,11 +51,9 @@ The project uses a customer subscription dataset containing:
 ## Project Objectives
 
 * Perform data cleaning and preparation
-* Analyze customer churn rates
 * Investigate retention trends
 * Conduct cohort analysis
 * Explore customer lifetime patterns
-* Identify major churn drivers
 * Provide actionable business recommendations
 
 ---
@@ -66,7 +64,6 @@ The project uses a customer subscription dataset containing:
 * Pandas
 * NumPy
 * Matplotlib
-* Seaborn
 
 ---
 
@@ -76,13 +73,11 @@ The project uses a customer subscription dataset containing:
 
 * Checked for missing values
 * Converted numerical fields
-* Removed invalid records
 * Verified data consistency
 
 ### 2. Exploratory Data Analysis
 
 * Customer churn distribution
-* Customer demographics
 * Service usage patterns
 * Revenue analysis
 
@@ -99,7 +94,6 @@ Customers were grouped by tenure cohorts to evaluate retention performance over 
 ### 5. Customer Lifetime Analysis
 
 Estimated customer lifetime value using:
-
 Estimated CLV = Average Monthly Revenue × Average Customer Tenure
 
 ### 6. Churn Driver Analysis
@@ -108,7 +102,6 @@ Investigated factors associated with churn, including:
 
 * Contract type
 * Monthly charges
-* Internet service
 * Customer tenure
 
 ---
@@ -139,15 +132,11 @@ Investigated factors associated with churn, including:
 
 ## Business Recommendations
 
-### 1. Promote Long-Term Contracts
-
-### 2. Improve Customer Onboarding
-
-### 3. Implement Retention Campaigns
-
-### 4. Increase Customer Engagement
-
-### 5. Monitor High-Risk Segments
+1. Promote Long-Term Contracts
+2. Improve Customer Onboarding
+3. Implement Retention Campaigns
+4. Increase Customer Engagement
+5. Monitor High-Risk Segments
 
 ---
 
