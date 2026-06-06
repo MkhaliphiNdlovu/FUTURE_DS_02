@@ -62,37 +62,11 @@ The project uses a customer subscription dataset containing:
 
 ## Tools & Technologies
 
-* Python
+* Python (vs code)
 * Pandas
 * NumPy
 * Matplotlib
 * Seaborn
-* Scikit-learn (optional)
-* VS Code
-
----
-
-## Project Structure
-
-```text
-customer-retention-analysis/
-│
-├── data/
-│   └── churn.csv
-│
-├── notebooks/
-│   └── Customer_Retention_Analysis.ipynb
-│
-├── output/
-│   ├── churn_distribution.png
-│   ├── contract_churn.png
-│   ├── tenure_analysis.png
-│   └── cohort_heatmap.png
-│
-├── task.py
-├── README.md
-└── requirements.txt
-```
 
 ---
 
@@ -167,23 +141,13 @@ Investigated factors associated with churn, including:
 
 ### 1. Promote Long-Term Contracts
 
-Offer discounts and incentives for annual or multi-year subscriptions.
-
 ### 2. Improve Customer Onboarding
-
-Focus on customer engagement during the first 90 days when churn risk is highest.
 
 ### 3. Implement Retention Campaigns
 
-Identify at-risk customers and provide personalized offers before cancellation.
-
 ### 4. Increase Customer Engagement
 
-Develop loyalty programs and value-added services to strengthen customer relationships.
-
 ### 5. Monitor High-Risk Segments
-
-Create dashboards that continuously track churn indicators and customer health metrics.
 
 ---
 
@@ -194,21 +158,14 @@ If customer churn is reduced:
 * Revenue retention increases
 * Customer lifetime value improves
 * Acquisition costs decrease
-* Long-term business growth becomes more sustainable
 
 ---
 
 ## Future Improvements
 
 * Build a machine learning churn prediction model
-* Develop an interactive Power BI dashboard
 * Incorporate customer support and engagement data
 * Implement automated churn risk scoring
 
 ---
 
-## Author
-
-Data Science & Analytics Internship Project
-
-Customer Retention & Churn Analysis
